@@ -19,6 +19,12 @@
     text-decoration: none;
     color: white;
 }
+.nav_link span:hover {
+    display: inline-block;
+    border-bottom: 2px solid white;
+    width: 100%;
+    
+}
 header {
     background-image: url('/images/desktop/image-hero.jpg');
     background-size: cover contain;
@@ -234,5 +240,6 @@ header {
 .link_items a:hover {
     text-decoration: underline;
     width: 50%;
-    
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
 }
